@@ -1,0 +1,26 @@
+/KFM5KAIFA-METER
+
+1-3:0.2.8(42)
+0-0:1.0.0(240612154533S)
+0-0:96.1.1(0000000000000000000000000000000000)
+1-0:1.8.1(014133.451*kWh)used in tarrif1
+1-0:1.8.2(012328.410*kWh)used in tarrif2
+1-0:2.8.1(002603.368*kWh)deliverd in tariff1
+1-0:2.8.2(005889.301*kWh)deliverd in tarrif2
+0-0:96.14.0(0002)tarief indicator
+1-0:1.7.0(00.000*kW)current power delivery?
+1-0:2.7.0(00.291*kW)current power consumed?
+0-0:96.7.21(00010) number of powerfailuers
+0-0:96.7.9(00009) number of long powerfailuers
+1-0:99.97.0(7)(0-0:96.7.19)(230628042157S)(0000001671*s)(221217170105W)(0000003104*s)(220307195010W)(0000010509*s)(200923131302S)(0000004841*s)(200507070714S)(0000000412*s)(150327110928W)(0000005491*s)(000101000001W)(2147483647*s)
+1-0:32.32.0(00000)
+1-0:32.36.0(00000)
+0-0:96.13.1()
+0-0:96.13.0()
+1-0:31.7.0(002*A) Instantaneous current L1 in A resolution.
+1-0:21.7.0(00.000*kW) Instantaneous active power L1 (+P) in W resolution gebruik
+1-0:22.7.0(00.291*kW)Instantaneous active power L1 (-P) in W resolution
+0-1:24.1.0(003)
+0-1:96.1.0(0000000000000000000000000000000000)
+0-1:24.2.1(240612150000S)(06084.813*m3) Gas 
+!65AB
