@@ -32,11 +32,6 @@ newmqttTopic = config["newmqttTopic"] or "powermeter"
 
 enabletranslate = config["enabletranslate"] or True
 
-newobistring = {}
-for item in obisToString:
-    newobistring[item] = obisToString[item].replace(" ", "-")
-print(newobistring)
-
 
 # parser
 def parsejsonmessage(currentmessage):
