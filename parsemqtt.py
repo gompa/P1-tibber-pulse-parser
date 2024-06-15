@@ -14,13 +14,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-
+import os
+import sys
 import paho.mqtt.client as mqtt
 import json
 from dotenv import dotenv_values
 from translationtable import obisToString
 
-config = dotenv_values(".env")
+config = dotenv_values(f"{os.path.dirname(os.path.realpath(sys.argv[0]))}/.env")
 # mqtt server
 mqttserverurl = config["mqttserverurl"] or "localhost"
 mqttserverport = int(config["mqttserverport"]) or 1883
