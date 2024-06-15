@@ -93,12 +93,13 @@ mqtt:
     - name: current-return
       unit_of_measurement: "W"
       state_class: measurement
-      state_topic: "powermeter/Actual-electricity-power-delivered-in-W"
+      state_topic: "powermeter/Actual-electricity-power-to-grid-in-W"
     - name: current-consumption
       device_class: power
       unit_of_measurement: "W"
       state_class: measurement
-      state_topic: "powermeter/Actual-electricity-power-received-in-W"
+      state_topic: "powermeter/Actual-electricity-power-from-grid-in-W"
+
 
     - name: used-tarrif1
       device_class: energy
